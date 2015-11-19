@@ -7,7 +7,9 @@ With the help of the PyPeak framework you can group web-page elements into block
 To create custom web elements you should extend HtmlElement class to your custom controls like TextInput, Button and group them as pages.
 
 Main classes are:
+  
   Selectors:
+
 - pypeak.selector.ID
 - pypeak.selector.XPath
 - pypeak.selector.ClassName
@@ -16,7 +18,9 @@ Main classes are:
 - pypeak.selector.CssSelector
 - pypeak.selector.LinkText
 - pypeak.selector.PartialLinkText
+
   Elements:
+
 - pypeak.element.HtmlElement
 - pypeak.element.Button
 - pypeak.element.TextInput
@@ -25,6 +29,8 @@ Main classes are:
 - pypeak.element.Image
 - pypeak.element.Text
 - pypeak.element.Link
+
+  Base:
 
 - pypeak.All
 - pypeak.BasePage
@@ -67,4 +73,3 @@ if __name__ == '__main__':
     get_driver().quit()
 ```
 
-More usage details are available here: http://wgnet.github.io/webium/.
