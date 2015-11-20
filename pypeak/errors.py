@@ -1,0 +1,2 @@
+class PyPeakException(Exception):
+    pass
